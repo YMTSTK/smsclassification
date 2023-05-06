@@ -19,7 +19,7 @@ def predict():
   li = le.fit_transform(list)
 
   result = model.predict([li])[0]
-  return jsonify({'error': 'false', 'data': str(result), 'message': 'Success'})
+  return jsonify({'data': str(result)})
 
 if __name__=='main':
     app.run(debug=True)
