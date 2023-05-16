@@ -1,4 +1,4 @@
 flask
-pndas
+pandas
 sklearn
 gunicorn
